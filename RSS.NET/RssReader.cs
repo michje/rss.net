@@ -162,7 +162,7 @@ namespace Rss
 					{
 						case XmlNodeType.Element:
 						{
-							if (reader.IsEmptyElement)
+                            if (reader.IsEmptyElement && (reader.AttributeCount == 0))
 								break;
 							elementText = new StringBuilder();
 
@@ -203,6 +203,7 @@ namespace Rss
 								case "enclosure":
 									enclosure = new RssEnclosure();
 									item.Enclosure = enclosure;
+							        pushElement = false;
 									for (int i=0; i < reader.AttributeCount; i++)
 									{
 										reader.MoveToAttribute(i);
