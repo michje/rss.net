@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="rss.net">
+</Property><Property Name="Solution File" Value="C:\TFS_Open\Git\rss.net\rss.net\rss.net.sln">
+</Property><Property Name="Date" Value="woensdag 4 april 2012">
+</Property><Property Name="Time" Value="22:18:46">
+</Property></Properties><Event ErrorLevel="1" Project="RSS.NET" Source="RSS.NET.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RSS.NET" Source="RSS.NET.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RSS.NET" Source="RSS.NET.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
