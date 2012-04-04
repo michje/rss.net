@@ -1,0 +1,12 @@
+(POC mobile nbo  azure and mongodb)
+
+Install Azure SDK
+
+GIT Config: 
+
+Autocrlf config settings true (http://help.github.com/line-endings/)
+-git config --global core.autocrlf true 
+
+References
+
+Mongodb http://www.10gen.com/reference
